@@ -1,11 +1,13 @@
 # BoostUs
 
 <p align="center">
-  <a href="https://github.com/boostcampwm2025/web01-pole-position/wiki"><b>📝 위키</b></a>
+  <a href="https://www.notion.so/Pole-Position-2c3d4705e03f80f7bba0c5264dc7be36?source=copy_link"><b>📑 팀 노션</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/boostcampwm2025/web01-pole-position/wiki"><b>📖 위키</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://www.figma.com/board/AZlRmfD1liRtDK41pwLJeK/%ED%8F%B4-%ED%8F%AC%EC%A7%80%EC%85%98-%ED%8C%80-BoostUs-%F0%9F%9A%80?node-id=0-1&t=VDqpRXD7pJhBLJk6-1"><b>🎨 피그잼</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://github.com/boostcampwm2025/web01-pole-position/wiki/%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%A3%B0"><b>🤝 그라운드룰</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/boostcampwm2025/web01-pole-position/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-%EC%BA%98%EB%A6%B0%EB%8D%94"><b>📆 회의록</b></a>
 </p>
 
 ## 🏁 폴포지션 팀원 소개
@@ -44,3 +46,4 @@
     <td align="center"><a href="https://github.com/DevJunz">J273_최준환</a></td>
   </tr>
 </table>
+
