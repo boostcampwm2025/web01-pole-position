@@ -13,7 +13,7 @@ export default function QuestionList() {
       return !question.isResolved;
     }
     if (filter === 'popular') {
-      return question.likeCount > 10;
+      return question.likeCount > 30;
     }
     return true;
   });
