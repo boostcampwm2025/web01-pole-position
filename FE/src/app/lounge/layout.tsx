@@ -1,14 +1,14 @@
-export default function RootLayout({
+import { LoungeTabs } from '@/widgets/lounge-tabs/ui/LoungeTabs';
+
+export default function LoungeLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
-      <body>
-        라운지 레이아웃
-        {children}
-      </body>
-    </html>
+    <div className="p-6 max-w-7xl mx-auto">
+      <LoungeTabs />
+      {children}
+    </div>
   );
 }
