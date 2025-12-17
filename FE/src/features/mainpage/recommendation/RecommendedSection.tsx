@@ -1,4 +1,4 @@
-import paint from "../../../public/assets/paint.png";
+import paint from "../../../../public/assets/paint.png";
 import Image from "next/image";
 
 const RecommendedSection = () => {
