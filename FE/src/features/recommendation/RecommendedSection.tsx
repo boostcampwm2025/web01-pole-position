@@ -5,7 +5,7 @@ const RecommendedSection = () => {
       <section className="flex flex-row gap-4 mt-4 w-full h-130">
         <article className="flex flex-col justify-end gap-2 bg-white shadow px-6 py-6 rounded-xl w-[70%]">
           <div className="flex flex-col justify-center items-center bg-blue-600 px-2 py-1 rounded-full w-fit">
-            <span className="font-bold text-[0.7rem] text-white">메인 추천</span>
+            <span className="font-bold text-white text-xs">메인 추천</span>
           </div>
           <div className="flex flex-col gap-1">
             <span className="font-bold text-2xl">실시간 협업 화이트보드</span>
@@ -16,7 +16,7 @@ const RecommendedSection = () => {
         <div className="flex flex-col gap-4 w-[30%]">
           <article className="flex flex-col justify-center gap-2 bg-white shadow px-6 py-4 rounded-xl h-full">
             <div className="flex flex-col justify-center items-center bg-blue-100 px-2 py-1 rounded-md w-fit">
-              <span className="font-semibold text-[0.7rem] text-blue-700">오늘의 아티클</span>
+              <span className="font-semibold text-blue-700 text-xs">오늘의 아티클</span>
             </div>
             <span className="font-bold text-xl">React 18의 Concurrent Rendering 완벽 이해하기</span>
             <span className="font-light text-gray-700 text-sm">
@@ -28,7 +28,7 @@ const RecommendedSection = () => {
           </article>
           <article className="flex flex-col justify-center gap-2 bg-white shadow px-6 py-4 rounded-xl h-full">
             <div className="flex flex-col justify-center items-center bg-green-100 px-2 py-1 rounded-md w-fit">
-              <span className="font-semibold text-[0.7rem] text-green-700">주목할 프로젝트</span>
+              <span className="font-semibold text-green-700 text-xs">주목할 프로젝트</span>
             </div>
             <span className="font-bold text-xl">실시간 협업 화이트보드</span>
           </article>
