@@ -4,14 +4,18 @@ import NoticeCard from "./variation/NoticeCard";
 import ProjectCard from "./variation/ProjectCard";
 import QnaCard from "./variation/QnaCard";
 
+export type FeedType = "blog" | "notice" | "bamboo" | "project" | "qna";
+
 interface FeedTypeProps {
-  feedType: "blog" | "notice" | "bamboo" | "project" | "qna";
+  feedType: FeedType;
 }
 
 const FeedCard = ({ feedType }: FeedTypeProps) => {
+  const commonClasses = "flex flex-col gap-2 shadow px-4 py-4 rounded-xl w-full h-fit break-inside-avoid mb-4";
+
   if (feedType === "blog") {
     return (
-      <div className="flex flex-col gap-2 bg-white shadow px-4 py-4 rounded-xl w-full h-fit">
+      <div className={`${commonClasses} bg-white`}>
         <BlogCard />
       </div>
     );
@@ -19,7 +23,7 @@ const FeedCard = ({ feedType }: FeedTypeProps) => {
 
   if (feedType === "notice") {
     return (
-      <div className="flex flex-col gap-2 bg-blue-600 shadow px-4 py-4 rounded-xl w-full h-fit">
+      <div className={`${commonClasses} bg-blue-600`}>
         <NoticeCard />
       </div>
     );
@@ -27,7 +31,7 @@ const FeedCard = ({ feedType }: FeedTypeProps) => {
 
   if (feedType === "bamboo") {
     return (
-      <div className="flex flex-col gap-4 bg-green-100 shadow px-4 py-4 rounded-xl w-full h-fit">
+      <div className={`${commonClasses} bg-green-100`}>
         <BambooCard />
       </div>
     );
@@ -35,7 +39,7 @@ const FeedCard = ({ feedType }: FeedTypeProps) => {
 
   if (feedType === "project") {
     return (
-      <div className="flex flex-col gap-0 bg-white shadow px-4 py-4 rounded-xl w-full h-fit">
+      <div className={`${commonClasses} bg-white`}>
         <ProjectCard />
       </div>
     );
@@ -43,7 +47,7 @@ const FeedCard = ({ feedType }: FeedTypeProps) => {
 
   if (feedType === "qna") {
     return (
-      <div className="flex flex-col gap-0 bg-white shadow px-4 py-4 rounded-xl w-full h-fit">
+      <div className={`${commonClasses} bg-white`}>
         <QnaCard />
       </div>
     );
