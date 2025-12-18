@@ -6,6 +6,6 @@ export const fetchMockProjectDetail = (): Promise<ProjectResponse> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(MOCK_PROJECT_DETAIL);
-    }, 1000);
+    }, 500);
   });
 };
