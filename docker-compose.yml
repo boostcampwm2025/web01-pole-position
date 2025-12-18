@@ -4,10 +4,11 @@ services:
     container_name: boostus_db
     restart: unless-stopped
     #실제 db의 환경변수는 docker file에 명시될 필요가 없다.
-    #개발 환경에서는 root 권한 획득이 필요하므로 MYSQL_USER와 MYSQL_PASSWORD를 명시하지 않는다.
     environment:
       - MYSQL_ROOT_PASSWORD=test
       - MYSQL_DATABASE=boostus
+      - MYSQL_USER=test
+      - MYSQL_PASSWORD=test
     #개발 단계에서 db 접속을 위해 포트를 노출한다.
     ports:
       - "3306:3306"
