@@ -23,11 +23,11 @@ export default function ModalOverlay({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 "
       onClick={() => router.back()} // 배경 클릭 시 닫기
     >
       <div
-        className="bg-white p-8 rounded-xl shadow-lg w-full max-w-5xl h-full overflow-y-auto"
+        className="bg-white p-8 rounded-xl shadow-lg w-full max-w-5xl h-full overflow-y-auto scrollbar-hide"
         onClick={(e) => e.stopPropagation()} // 내부 클릭 시 닫기 방지
       >
         <div className="flex justify-between items-center mb-4">
