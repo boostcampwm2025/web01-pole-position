@@ -20,6 +20,7 @@ const ProjectListCard = ({ project }: ProjectCardProps) => {
     <Link
       href={`/project/${project.id}`}
       className="bg-white shadow rounded-xl"
+      scroll={false}
     >
       <article className="bg-white shadow rounded-xl">
         <Image

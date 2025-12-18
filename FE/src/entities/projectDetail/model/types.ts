@@ -9,6 +9,7 @@ export interface ProjectData {
   thumbnailUrl: string;
   title: string;
   description: string;
+  stacks: string[];
   summary: string;
   contents: string; // Markdown 텍스트
   repositoryUrl: string;
