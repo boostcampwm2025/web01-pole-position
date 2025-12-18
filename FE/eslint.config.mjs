@@ -86,6 +86,8 @@ export default ts.config(
         'warn',
         { argsIgnorePattern: '^_' },
       ],
+
+      '@typescript-eslint/no-confusing-void-expression': 'off',
     },
   },
 
